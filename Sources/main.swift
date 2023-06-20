@@ -523,5 +523,5 @@ var game = Game(video: GameVideo(dim: Dimension(width: 640, height: 480)))
 runGame(&game, title: title)
 
 if let error = errorFn {
-  print("Error: \(error)")
+  print("Error: \(String.init(cString: error))")
 }
