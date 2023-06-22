@@ -6,14 +6,14 @@ import PackageDescription
 let package = Package(
   name: "pong-sdl",
   dependencies: [
-    .package(url: "https://github.com/PureSwift/SDL", branch: "master")
+    .package(url: "https://github.com/a-isaiahharvey/SwiftSDL2.git", branch: "main")
   ],
   targets: [
     // Targets are the basic building blocks of a package, defining a module or a test suite.
     // Targets can depend on other targets in this package and products from dependencies.
     .executableTarget(
       name: "pong-sdl",
-      dependencies: ["SDL"],
+      dependencies: ["SwiftSDL2"],
       path: "Sources")
   ]
 )

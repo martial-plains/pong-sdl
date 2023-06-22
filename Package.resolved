@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "sdl",
+      "identity" : "swiftsdl2",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/PureSwift/SDL",
+      "location" : "https://github.com/a-isaiahharvey/SwiftSDL2.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "e317e8882cc03709aaddd17770e1fab5522ea256"
+        "branch" : "main",
+        "revision" : "608f62fbc33c9d855cad8251e7b2455d05f49b5d"
       }
     }
   ],
