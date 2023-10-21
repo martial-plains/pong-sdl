@@ -5,7 +5,7 @@
 //  Created by Allister Harvey on 6/19/23.
 //
 
-import CSDL2
+import SwiftSDL2
 import Foundation
 
 enum Direction: Int32 {
